@@ -1,0 +1,243 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	background-color:white;
+}
+
+.main_wrapper{
+	width:1200px;
+	height:auto;
+	margin:auto;
+}
+
+.before_header{
+	height:30px;
+	width:1200px;
+	margin-top:3px;
+	margin-bottom:3px;
+	color:white;
+}
+
+.header_wrapper{
+	width:1200px;
+	height: 170px;
+	margin:auto;
+}
+
+
+.boxreg{
+    border: 2px solid #cc6600;
+    border-radius: 4px;
+	width:50%;
+	padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.boxsub{
+    border: 2px solid #cc6600;
+    border-radius: 4px;
+	width:20%;
+	padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+#logo{float:left;}
+
+.boxsearch {
+    width: 18%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+	color:white;
+    background-color: #cc6600;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.boxsearch:focus {
+    width: 50%;
+}
+
+#cart1{
+	height:30px;
+	width:1200px;
+	margin-top:3px;
+	margin-bottom:3px;
+	color:white;
+}
+
+.customerarea{
+	margin-top:2px;
+	width:1200px;
+	height:auto;
+}
+
+#customeroption{
+	width:315px;
+	padding:20px;
+	height:auto;
+	color:white;
+	border:1px solid gray;
+	text-align:center;
+	float:left;
+	margin-bottom:5px;
+}
+
+.aop {
+	text-align:center;
+}
+
+.aop li {
+	list-style:none;
+	margin:5px;
+}
+
+.aop a {
+	color:white;
+	padding:20px;
+	margin-top:10px;
+	text-align:left;
+	font-size:25px;
+	text-decoration:none;
+}
+
+.aop a:hover {
+	color:gray;
+	font-weight:bolder;
+	text-decoration:underline;
+}
+
+.aop img {
+	border: 2px solid white;
+	padding:4px;
+}
+
+#optiondetails{
+	width:800px;
+	padding:20px;
+	height:auto;
+	color:white;
+	border:1px solid gray;
+	text-align:center;
+	float:left;
+	margin-bottom:5px;
+}
+.button1{
+	background-color:#cc6600;
+    border: none;
+    color: white;
+    padding: 8px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+	font-family:applet;
+	border-radius: 8px;
+	float:right;
+	margin-right:10px;
+	margin-top:7px;
+}
+
+.Obutton{
+	background-color:#990000;
+    border: none;
+    color: white;
+    padding: 8px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+	font-family:applet;
+	border-radius: 8px;
+	float:right;
+	margin-top:5px;
+}
+
+.circledivs{
+	margin-top:10px;
+	width:293px;
+	height:300px;
+	border:3px solid gray;
+	color:white;
+	float:left;
+	text-align:center;
+	margin-bottom:10px;
+}
+#aboutus{
+	margin-top:10px;
+	width:1200px;
+	height:auto;
+	color:white;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+#mediumdivs{
+	margin-top:5px;
+	width:390px;
+	height:auto;
+	color:white;
+	text-align:center;
+	float:left;
+	margin-bottom:5px;
+}
+
+#footer{
+	width:1200px;
+	height:220px;
+	clear:both;
+}
+
+.footdiv{
+	margin-top:5px;
+	width:293px;
+	height:140px;
+	border:none;
+	color:white;
+	float:left;
+	text-align:center;
+	margin-bottom:5px;
+}
+
+.footdiv a {
+	text-decoration:none;
+	color:white;
+}
+
+.footdiv a:hover{
+	font-weight:bolder;
+	font-size:20px;
+	font-family: "Times New Roman", Georgia, Serif;
+}
